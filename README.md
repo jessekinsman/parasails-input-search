@@ -4,7 +4,7 @@ Parasails is essentially a port of Vue.js that is slightly customized to work be
 Place in your assets/js/components/ directory
 You should be able to use directly in your EJS templates from there.
 
-### What is the input search
+### What is the input search component?
 Essentially it is very similar to a select, except as the user inputs text it only displays items that contain that text, whereas a select control only displays items that start with the text entered
 This is built off of bootstrap so should display well if you are using bootstrap with sails.js
 It does not include any styling
