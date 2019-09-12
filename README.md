@@ -1,17 +1,17 @@
-h1 Parasails input search component
+# Parasails input search component
 This is a Vue.js component that can be used with the [sails.js](https://sailsjs.com/get-started) and [parasails.js](https://github.com/mikermcneil/parasails).
 Parasails is essentially a port of Vue.js that is slightly customized to work better within sails.js
 Place in your assets/js/components/ directory
 You should be able to use directly in your EJS templates from there.
 
-#h3 What is the input search
+### What is the input search
 Essentially it is very similar to a select, except as the user inputs text it only displays items that contain that text, whereas a select control only displays items that start with the text entered
 This is built off of bootstrap so should display well if you are using bootstrap with sails.js
 It does not include any styling
 
 ![input search screenshot](https://www.dropbox.com/s/8mh13t3yxl44246/input-search.png?dl=0)
 
-#h3 Props
+### Props
 **bold text** Here are the props need for this to function correctly
 - list: this the list you want the user to select and item from. Must be an array of objects that have an id and name property
 - placeholder: pass a text string that you want to be the placeholder in the input
