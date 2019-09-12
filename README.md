@@ -1,4 +1,4 @@
-#h1 Parasails input search component
+h1 Parasails input search component
 This is a Vue.js component that can be used with the [sails.js](https://sailsjs.com/get-started) and [parasails.js](https://github.com/mikermcneil/parasails).
 Parasails is essentially a port of Vue.js that is slightly customized to work better within sails.js
 Place in your assets/js/components/ directory
