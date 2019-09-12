@@ -22,5 +22,12 @@ It does not include any styling
 -- **True:** you want to calculate the distance from the bottom of the window and display above the input if not enough space
 -- **False:** you always want the menu displayed below the input element. It will not calculate
 
+### Listening for changes @selected
+Whan a user selects an item, the @selected event is emitted with item object that was selected.
+On the instance you can add the @selected="functionYouWantToCall" to listen for the selected event
+
+### An example of use
+`<input-search v-bind:list="array-of-items-I-want-displayed" v-bind:current="current-selected-exercise" v-bind:checktop="boolean" v-bind:error="boolean" :key="key" v-bind:placeholder="placeholder-text-string" v-bind:id="id-of-input-element" v-bind:iconClass="class-of-icon" @selected="functionYouWantToCallWhenSelected"></input-search>`
+
 ### Future improvements
 When you key down or key up through the menu, it currently does not automatically scroll. Would like to add that feature.
