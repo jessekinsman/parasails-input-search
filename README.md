@@ -9,7 +9,7 @@ Essentially it is very similar to a select, except as the user inputs text it on
 This is built off of bootstrap so should display well if you are using bootstrap with sails.js
 It does not include any styling
 
-![input search screenshot](https://www.dropbox.com/s/8mh13t3yxl44246/input-search.png?dl=0)
+![input search screenshot](https://www.dropbox.com/s/8mh13t3yxl44246/input-search.png?dl=1)
 
 ### Props
 - **list:** this the list you want the user to select and item from. Must be an array of objects that have an id and name property
